@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animations</title>
+  </head>
+  <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      background-color: hotpink;
+
+      animation: 1.5s rotateAndScale infinite ease-in-out;
+    }
+    @keyframes rotateAndScale {
+      0% {
+        transform: none;
+      }
+      50% {
+        transform: rotate(1turn) scale(0.5, 0.5);
+        background-color: indigo;
+        color: lawngreen;
+      }
+      100% {
+        transform: none;
+      }
+    }
+  </style>
+  <body>
+    <div class="box">text</div>
+  </body>
+</html>

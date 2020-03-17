@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transitions</title>
+    <style>
+      .box {
+        background-color: blue;
+        color: cornsilk;
+        font-size: 200px;
+        transition: all 0.5s ease-in-out;
+      }
+      .box:active {
+        background-color: crimson;
+        color: greenyellow;
+        font-size: 100px;
+      }
+      /*https://developer.mozilla.org/en-US/docs/Web/CSS/transition*/
+    </style>
+  </head>
+  <body>
+    <span class="box">
+      Text
+    </span>
+  </body>
+</html>
