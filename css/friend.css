@@ -1,0 +1,65 @@
+.friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friend .friend__avatar {
+  width: 50px;
+  border-radius: 40%;
+}
+
+.friend__avatar.g-avatar {
+  width: 70px;
+}
+
+.friend__avatar.m-avatar {
+  width: 60px;
+}
+
+.friend .friends__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend .friend__avatar {
+  margin-right: 15px;
+}
+
+.friends__content .friend__name,
+.friends__column .friend__name {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.friends__content .friend__status,
+.friends__content .friend__bottom-text,
+.friend .timestamp {
+  opacity: 0.6;
+}
+
+.friends__content .friend__bottom-text,
+.friend .timestamp {
+  font-size: 14px;
+}
+
+.friends__content .friend__status {
+  font-size: 12px;
+}
+
+.friend .friend__now-listening {
+  border: 2px solid #acf5c1;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.friends__column .music-name,
+.friends__column .fas.fa-play {
+  opacity: 0.6;
+}
+
+.friends__column .fas.fa-play {
+  font-size: 10px;
+}
