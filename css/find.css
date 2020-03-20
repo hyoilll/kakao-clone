@@ -1,0 +1,56 @@
+.find .find__header {
+  margin-top: 20px;
+}
+.find .find__header-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+
+  margin-bottom: 30px;
+}
+
+/*.find .find_header-btn.header-btn {
+  display: flex;
+  flex-direction: column;
+}*/
+
+.find .find_header-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find .header-btn__icon {
+  font-size: 12px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.find .header-btn_title {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.find .find__recommended {
+  padding-top: 15px;
+  border-top: 1px solid #f7f7f7;
+}
+
+.find .find__title {
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+.find .friend {
+  margin-top: 10px;
+}
+
+.find .find__recommended .friend__add-btn {
+  background-color: rgb(247, 247, 247);
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.find .find__recommended .friend__add-btn .fas {
+  font-size: 13px;
+}
