@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Chat | kakao Clone</title>
   </head>
-  <body>
+  <body class = "chat-body">
     <section class="status-bar">
       <!-- == section.status-bar -->
       <div class="status-bar__column">
@@ -29,30 +29,49 @@
         <i class="fas fa-battery-full"></i>
       </div>
     </section>
-    <header class="header">
-      <div class="header__header-column">
-        <a href="index.html" class = "arrow_btn">
-            <i class="fas fa-arrow-left fa-2x"></i>
-          </a>  
-        <h1 class="header__title">Sana</h1>
-      </div><!-- div = display: block / span = inline -->
-      <div class="header__header-column">
-        <span class="header__icon">
-          <i class="fas fa-search"></i>
-        <span class="header__icon">
-            <i class="fas fa-bars"></i>
-        </span>
-      </div>
-    </header>
-    <main class="chat">
-        <ul class="chat__messages">
-            <span class="chat__titmestamp">Friday,Jauary 11, 2019</span>
-            <li class="incoming-message message">
+    <section class="screen">
+      <header class="header">
+        <div class="header__header-column">
+          <a href="index.html" class = "arrow_btn">
+              <i class="fas fa-arrow-left fa-2x"></i>
+            </a>  
+          <h1 class="header__title">Sana</h1>
+        </div><!-- div = display: block / span = inline -->
+        <div class="header__header-column">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          <span class="header__icon">
+              <i class="fas fa-bars"></i>
+          </span>
+        </div>
+      </header>
+      <main class="chat">
+          <ul class="chat__messages">
+              <span class="chat__timestamp">Friday, Jauary 11, 2019</span>
+              <li class="incoming-message message">
+                  <img src="image/sanaCut.jpg" class="g-avatar message__avatar">
+                  <div class="message__content">
+                      <span class="message__author">Sana</span>
+                      <div class="message__bubble">
+                          Congrate I love you!
+                      </div>
+                  </div>
+                  <span class="message__timestamp">14:55</span>
+              </li>
+              <li class="outgoing-message message">
+                  <span class="message__timestamp">15:01</span>
+                  <div class="message__content">
+                      <div class="message__bubble">
+                          Thank you see you soon!
+                      </div>
+                  </div>
+              </li>
+              <li class="incoming-message message">
                 <img src="image/sanaCut.jpg" class="g-avatar message__avatar">
                 <div class="message__content">
                     <span class="message__author">Sana</span>
                     <div class="message__bubble">
-                        Congrate I love you!
+                        fuck you
                     </div>
                 </div>
                 <span class="message__timestamp">14:55</span>
@@ -61,12 +80,13 @@
                 <span class="message__timestamp">15:01</span>
                 <div class="message__content">
                     <div class="message__bubble">
-                        Thank you see you soon!
+                        you too
                     </div>
                 </div>
             </li>
-        </ul>
-    </main>
+          </ul>
+      </main>
+    </section>
     <div class="chat__write">
         <div class="chat__write-column">
             <i class="far fa-plus-square"></i>
